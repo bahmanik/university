@@ -7,7 +7,7 @@
 
 const int NUM_PRISONERS = 100;
 const int NUM_ATTEMPTS = 50;
-const int TOTAL_TRIALS = 10000000;  //INT_MAX;
+const int TOTAL_TRIALS = 1000000;  //INT_MAX;
 const int NUM_THREADS = std::thread::hardware_concurrency();
 
 // Simulates one trial of the 100 prisoners problem.
